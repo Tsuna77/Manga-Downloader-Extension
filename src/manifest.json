@@ -1,5 +1,5 @@
 {
-	"manifest_version": 2,
+	"manifest_version": 3,
 	"name": "Manga Downloader",
 	"short_name" : "Manga Downloader",
 	"version": "3.10.15",
@@ -11,7 +11,8 @@
 		"96": "icons/md-96.png",
 		"128": "icons/md-128.png"
 	},
-	"permissions" : [
+	"host_permissions" : [
+		"*://manga-scantrad.io/*",
 		"*://*.imggur.net/*",
 		"*://*.imgur.com/*",
 		"*://*.mangapanda.com/*",
